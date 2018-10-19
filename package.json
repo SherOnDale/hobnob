@@ -9,8 +9,7 @@
     "serve": "yarn run build && node dist/index.js",
     "watch": "nodemon -w src --exec yarn run serve",
     "lint": "eslint src",
-    "fix": "eslint src --fix",
-    "precommit": "yarn run lint"
+    "fix": "eslint src --fix"
   },
   "repository": {
     "type": "git",
@@ -38,5 +37,10 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint"
+    }
   }
 }
