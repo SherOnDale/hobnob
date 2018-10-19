@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/SherOnDale/hobnob/issues"
   },
-  "homepage": "https://github.com/SherOnDale/hobnob#readme"
+  "homepage": "https://github.com/SherOnDale/hobnob#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
 }
