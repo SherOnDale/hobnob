@@ -1,7 +1,7 @@
 {
   "name": "hobnob",
   "version": "0.1.0",
-  "description": "a directory app",
+  "description": "Back end for a simple user directory API with recommendation engine",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
