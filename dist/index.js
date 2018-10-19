@@ -1,5 +1,7 @@
 "use strict";
 
+require("@babel/polyfill");
+
 var _http = _interopRequireDefault(require("http"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
